@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>Canvas Game</title>
+</head>
+
+<body style="background-color: rgb(204, 204, 204);">
+  <div class="container">
+    <h1 style="text-align: center;background-color: cornflowerblue;padding: 5px;color: rgb(252, 252, 252);">Ready To
+      Play!
+    </h1>
+  </div>
+
+  <div class="container">
+    <canvas id="myCanvas" height="500px" width="500px"></canvas>
+  </div>
+
+  <div class="container">
+    <section class="animation-buttons">
+      <button class="btn btn-primary" id="kick">Kick (Up) </button>
+      <button class="btn btn-primary" id="punch">Punch (Down) </button>
+      <button class="btn btn-warning" id="forward">Forward (Right)</button>
+      <button class="btn btn-warning" id="backward">Backward (Left)</button>
+      <button class="btn btn-danger" id="block">Block (Space)</button>
+    </section>
+  </div>
+
+
+  <script src="game.js"> </script>
+  </br>
+  <footer>
+    <p style="text-align: center;color: black;font-weight: 600;">Designed by : Shreyas Mane</p>
+  </footer>
+</body>
+
+</html>
